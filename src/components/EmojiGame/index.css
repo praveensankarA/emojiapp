@@ -1,0 +1,35 @@
+/* Write your code here. */
+.game-bg-container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4 90%);
+  min-height: 100vh;
+  margin-top: -17px;
+}
+.game-emoji-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.emoji-main-container {
+  width: 100%;
+  background-color: transparent;
+  padding: 20px 20px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 588px) {
+  .game-bg-container {
+    min-height: 110vh;
+  }
+  .game-emoji-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .emoji-main-container {
+    width: 70%;
+    flex-wrap: wrap;
+  }
+}

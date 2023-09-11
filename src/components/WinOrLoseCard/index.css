@@ -1,0 +1,32 @@
+/* Write your code here. */
+.result-container {
+  display: flex;
+  margin-top: 30px;
+  min-height: 10vh;
+  background-color: #ffffff33;
+  padding: 20px;
+  align-items: center;
+}
+.score-container {
+  color: white;
+  text-align: center;
+}
+.result-img {
+  height: 25vh;
+}
+@media (min-width: 588px) {
+  .result-img {
+    height: 50vh;
+  }
+}
+.re- {
+  background-color: #ffce27;
+  /* color: #fff; */
+  font-weight: 900;
+  font-family: 'roboto';
+  font-size: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: 0px;
+  padding: 5px 20px;
+}
